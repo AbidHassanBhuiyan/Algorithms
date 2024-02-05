@@ -13,7 +13,7 @@ void LinearSearch(int arr1[],int n,int itm)
     }
     if(position!=-1)
     {
-        cout<<"Iteam Found in : "<<position;
+        cout<<"Item Found in : "<<position;
     }
     else
     {
@@ -30,12 +30,15 @@ int main()
                 39, 63, 75, 12, 57, 82, 19, 88, 31, 68, 44, 76, 25, 93, 8, 54, 77, 20, 98, 46,
                 13, 52, 89, 14, 72, 28, 51, 94, 38, 71, 17, 63, 29, 82, 45, 67, 22, 55, 79, 30,
                 26, 23, 56, 91, 16, 74, 42, 69, 15, 88, 31, 77, 78, 30, 73, 18, 55, 58, 27, 51};
+
+
+
     int size=sizeof(arr)/sizeof(arr[0]);
 
-    int iteam;
+    int item;
     cout<<"Enter The Number To Search :";
-    cin>>iteam;
-    LinearSearch(arr,size,iteam);
+    cin>>item;
+    LinearSearch(arr,size,item);
 
 
 }
